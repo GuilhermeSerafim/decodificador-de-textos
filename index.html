@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Challenger | Decodificador de Textos</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        
-    </body>
-    <script src="index.js">
 
-    </script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenger | Decodificador de Textos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="encriptar">
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Digite o seu texto"></textarea>
+            <div class="terminos">
+                <p>Apenas letras minúsculas e sem acentos</p>
+            </div>
+            <div class="botao">
+                <button class="btn__encriptar" type="button" onclick="encriptar()">
+                    Encriptar
+                </button>
+                <input type="button" class="btn__desencriptar" value="Desencriptar" onclick="desencriptar()" />
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js">
+
+</script>
+
 </html>
