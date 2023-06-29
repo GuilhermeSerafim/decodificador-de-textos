@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang=”pt-br”>
 
 <head>
     <meta charset="UTF-8">
@@ -11,16 +11,23 @@
 
 <body>
     <div class="container">
-        <div class="encriptar">
-            <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Digite o seu texto"></textarea>
-            <div class="terminos">
+        <div class="criptografar">
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="10"
+                placeholder="Digite o seu texto"></textarea>
+            <div class="termos">
                 <p>Apenas letras minúsculas e sem acentos</p>
             </div>
             <div class="botao">
-                <button class="btn__encriptar" type="button" onclick="encriptar()">
-                    Encriptar
-                </button>
-                <input type="button" class="btn__desencriptar" value="Desencriptar" onclick="desencriptar()" />
+                <button class="btn-criptografar" type="button" onclick="criptografar()">Criptografar</button>
+                <input type="button" class="btn-descriptografar" value="Descriptografar" onclick="descriptografar()" />
+            </div>
+        </div>
+        <div class="criptografado">
+            <img src="" alt="" id="boneco">
+            <div class="mensagem-criptografado" id="mensagem-criptografado">
+                <h2 id="titulo-mensagem">Nenhuma mensagem encontrada</h2>
+                <p id="paragrafo">Digite um texto que você deseja criptografar ou descriptografar</p>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" class="mensagem"></textarea>
             </div>
         </div>
     </div>
