@@ -162,3 +162,68 @@
     height: 50%;
     top: 15%;
 }
+
+/* Responsive Design */
+
+@media (max-width: 57.7em) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .criptografar {
+        width: 100%;
+
+    }
+
+    .texto {
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+    }
+
+    .termos {
+        width: 80%;
+        left: 10%;
+        top: 67%;
+    }
+
+    .termos p {
+        font-size: 16px;
+    }
+
+    .botao {
+        width: 80%;
+        left: 10%;
+        top: 70%;
+    }
+
+    .btn-criptografar, .btn-descriptografar {
+        width: 48%;
+        border-radius: 16px;
+    }
+
+    .btn-criptografar:hover, .btn-descriptografar:hover {
+        margin: 0.3%;
+        width: 47.5%;
+        padding: 1.8%;
+    }
+
+    .criptografado {
+        width: 80%;
+        height: 15%;
+        left: 10%;
+        top: 80%;
+    }
+
+    .mensagem-criptografado {
+        width: 100%;
+        top: 5%;
+    }
+    .criptografado img {
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+}
