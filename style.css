@@ -103,7 +103,12 @@
     color: #0A3871;
 }
 
-.btn-criptografar:hover,
+.btn-criptografar:hover {
+    margin: 0.3%;
+    margin-right: 3%;
+    width: 24.5%;
+}
+
 .btn-descriptografar:hover {
     margin: 0.3%;
     width: 24.5%;
