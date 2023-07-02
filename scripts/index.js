@@ -20,7 +20,7 @@ function criptografar() {
         boneco.src = "./img/High quality products 1 1.png";
         tituloMensagem.textContent = "Nenhuma mensagem foi encontrada";
         paragrafo.textContent = "Digite um texto que você deseja criptografar ou descriptografar";
-        alert("Você deve digitar algum texto");
+        swal("Ooops!", "Você deve digitar um texto", "warning");
     }
 }
 
@@ -46,6 +46,6 @@ function descriptografar() {
         boneco.src = "./img/High quality products 1 1.png";
         tituloMensagem.textContent = "Nenhuma mensagem foi encontrada";
         paragrafo.textContent = "Digite um texto que você deseja criptografar ou descriptografar";
-        alert("Você deve digitar algum texto");
+        swal("Ooops!", "Você deve digitar um texto", "warning");
     }
 }
