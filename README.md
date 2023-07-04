@@ -1,4 +1,4 @@
-# Challenguer - Decodificador de Textos
+# Challenger - Decodificador de Textos
 O Decodificador de Textos é uma software que permite criptografar e descriptografar mensagens de texto. Com base em um algoritmo de substituição simples, o decodificador substitui determinados caracteres por palavras específicas, tornando o texto original ilegível.
 
 Prótotipo do projeto🎨
